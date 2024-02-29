@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T12:39:37 IST" name="Suite" finished-at="2024-02-28T12:44:56 IST" duration-ms="319247">
+    <groups>
+      <group name="smoke">
+        <method signature="TC001_Doctor_Details.Check_for_correct_page()[pri:1, instance:testing.TC001_Doctor_Details@2c7b5824]" name="Check_for_correct_page" class="testing.TC001_Doctor_Details"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-02-28T12:39:37 IST" name="Test" finished-at="2024-02-28T12:44:56 IST" duration-ms="319247">
+      <class name="testing.TC003_Set_Wrong_Details">
+        <test-method signature="ScrollTo()[pri:1, instance:testing.TC003_Set_Wrong_Details@5829e4f4]" started-at="2024-02-28T12:42:09 IST" name="ScrollTo" finished-at="2024-02-28T12:42:19 IST" duration-ms="10155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollTo -->
+        <test-method signature="set_Wrong_Details()[pri:2, instance:testing.TC003_Set_Wrong_Details@5829e4f4]" started-at="2024-02-28T12:42:20 IST" name="set_Wrong_Details" finished-at="2024-02-28T12:42:23 IST" duration-ms="2509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_Wrong_Details -->
+        <test-method signature="buttonDisplayed()[pri:3, instance:testing.TC003_Set_Wrong_Details@5829e4f4]" started-at="2024-02-28T12:42:23 IST" name="buttonDisplayed" finished-at="2024-02-28T12:42:23 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttonDisplayed -->
+        <test-method signature="clearFields()[pri:4, instance:testing.TC003_Set_Wrong_Details@5829e4f4]" started-at="2024-02-28T12:42:24 IST" name="clearFields" finished-at="2024-02-28T12:42:26 IST" duration-ms="2551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+      </class> <!-- testing.TC003_Set_Wrong_Details -->
+      <class name="testing.TC004_Set_Correct_Details">
+        <test-method signature="ScrollTo()[pri:1, instance:testing.TC004_Set_Correct_Details@4218500f]" started-at="2024-02-28T12:42:27 IST" name="ScrollTo" finished-at="2024-02-28T12:42:37 IST" duration-ms="10144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollTo -->
+        <test-method signature="set_Correct_Details()[pri:2, instance:testing.TC004_Set_Correct_Details@4218500f]" started-at="2024-02-28T12:42:38 IST" name="set_Correct_Details" finished-at="2024-02-28T12:42:41 IST" duration-ms="3410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_Correct_Details -->
+        <test-method signature="buttonDisplayed()[pri:3, instance:testing.TC004_Set_Correct_Details@4218500f]" started-at="2024-02-28T12:42:42 IST" name="buttonDisplayed" finished-at="2024-02-28T12:42:42 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttonDisplayed -->
+        <test-method signature="click()[pri:4, instance:testing.TC004_Set_Correct_Details@4218500f]" started-at="2024-02-28T12:42:43 IST" name="click" finished-at="2024-02-28T12:42:43 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click -->
+        <test-method signature="getMsg()[pri:5, instance:testing.TC004_Set_Correct_Details@4218500f]" started-at="2024-02-28T12:42:44 IST" name="getMsg" finished-at="2024-02-28T12:44:54 IST" duration-ms="130095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMsg -->
+        <test-method signature="verifyMsg()[pri:6, instance:testing.TC004_Set_Correct_Details@4218500f]" started-at="2024-02-28T12:44:54 IST" name="verifyMsg" finished-at="2024-02-28T12:44:55 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMsg -->
+      </class> <!-- testing.TC004_Set_Correct_Details -->
+      <class name="testing.TC002_Surgeries">
+        <test-method signature="ScrollDown()[pri:1, instance:testing.TC002_Surgeries@708400f6]" started-at="2024-02-28T12:41:36 IST" name="ScrollDown" finished-at="2024-02-28T12:41:46 IST" duration-ms="10480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollDown -->
+        <test-method signature="get_Surgeries_List()[pri:2, instance:testing.TC002_Surgeries@708400f6]" started-at="2024-02-28T12:41:47 IST" name="get_Surgeries_List" finished-at="2024-02-28T12:41:51 IST" duration-ms="4336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Surgeries_List -->
+        <test-method signature="clickOnForm()[pri:3, instance:testing.TC002_Surgeries@708400f6]" started-at="2024-02-28T12:41:51 IST" name="clickOnForm" finished-at="2024-02-28T12:42:08 IST" duration-ms="16991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnForm -->
+      </class> <!-- testing.TC002_Surgeries -->
+      <class name="testing.TC001_Doctor_Details">
+        <test-method is-config="true" signature="Intiate_WebDriver(java.lang.String,java.lang.String)[pri:0, instance:testing.TC001_Doctor_Details@2c7b5824]" started-at="2024-02-28T12:39:38 IST" name="Intiate_WebDriver" finished-at="2024-02-28T12:39:52 IST" duration-ms="13771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Intiate_WebDriver -->
+        <test-method signature="Check_for_correct_page()[pri:1, instance:testing.TC001_Doctor_Details@2c7b5824]" started-at="2024-02-28T12:39:52 IST" name="Check_for_correct_page" finished-at="2024-02-28T12:39:53 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_for_correct_page -->
+        <test-method signature="getting_correct_city()[pri:2, instance:testing.TC001_Doctor_Details@2c7b5824]" started-at="2024-02-28T12:39:53 IST" name="getting_correct_city" finished-at="2024-02-28T12:40:24 IST" duration-ms="30892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getting_correct_city -->
+        <test-method signature="get_list_of_doctors()[pri:3, instance:testing.TC001_Doctor_Details@2c7b5824]" started-at="2024-02-28T12:40:25 IST" name="get_list_of_doctors" finished-at="2024-02-28T12:41:14 IST" duration-ms="49229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_list_of_doctors -->
+        <test-method signature="Scolldown()[pri:4, instance:testing.TC001_Doctor_Details@2c7b5824]" started-at="2024-02-28T12:41:14 IST" name="Scolldown" finished-at="2024-02-28T12:41:25 IST" duration-ms="10154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scolldown -->
+        <test-method signature="Printing_names()[pri:5, instance:testing.TC001_Doctor_Details@2c7b5824]" started-at="2024-02-28T12:41:25 IST" name="Printing_names" finished-at="2024-02-28T12:41:32 IST" duration-ms="6750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Printing_names -->
+        <test-method signature="surgeriesClicked()[pri:6, instance:testing.TC001_Doctor_Details@2c7b5824]" started-at="2024-02-28T12:41:32 IST" name="surgeriesClicked" finished-at="2024-02-28T12:41:35 IST" duration-ms="2883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- surgeriesClicked -->
+        <test-method is-config="true" signature="Close_Driver()[pri:0, instance:testing.TC001_Doctor_Details@2c7b5824]" started-at="2024-02-28T12:44:55 IST" name="Close_Driver" finished-at="2024-02-28T12:44:56 IST" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Driver -->
+      </class> <!-- testing.TC001_Doctor_Details -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
